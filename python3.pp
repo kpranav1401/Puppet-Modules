@@ -6,6 +6,7 @@ class firstmodule::python3 {
   }
   notify { 'done' : 
     message	=>	'python3 is now installed'
+    message =>  'added a msg'
   }
 }
 
